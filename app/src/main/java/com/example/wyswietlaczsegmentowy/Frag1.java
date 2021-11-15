@@ -154,7 +154,7 @@ public class Frag1 extends Fragment implements View.OnClickListener {
             case R.id.buttonB:
                 b = editTextB.getText().toString();
                 b = b.replaceAll("\\s+", "");
-                if (b.contains("(d'*c')") && b.contains("(b'*c')") && b.contains("(b'*a'*d)") && b.contains("(d'*b'*a)"))
+                if (b.contains("(d'*c')") && b.contains("(b'*c')") && b.contains("(b'*a'*d)") && b.contains("(d'*b*a)"))
                 {
                     viewB.setBackgroundResource(R.color.green);
                 } else {
@@ -192,7 +192,7 @@ public class Frag1 extends Fragment implements View.OnClickListener {
             case R.id.buttonF:
                 f = editTextF.getText().toString();
                 f = f.replaceAll("\\s+", "");
-                if (f.contains("(c'*b'*a')") && f.contains("(c*b'*d')") && f.contains("(d*c'*h')") && f.contains("(d'*c*a')")) {
+                if (f.contains("(c'*b'*a')") && f.contains("(c*b'*d')") && f.contains("(d*c'*b')") && f.contains("(d'*c*a')")) {
                     viewF.setBackgroundResource(R.color.green);
                 } else {
                     viewF.setBackgroundResource(R.color.black);
