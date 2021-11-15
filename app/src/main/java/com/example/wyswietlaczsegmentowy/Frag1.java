@@ -201,7 +201,7 @@ public class Frag1 extends Fragment implements View.OnClickListener {
             case R.id.buttonG:
                 g = editTextG.getText().toString();
                 g = g.replaceAll("\\s+", "");
-                if (g.contains("(d'*c*h')") && g.contains("(d'*c*a')") && g.contains("(b*d'*c')")) {
+                if (g.contains("(d'*c*b')") && g.contains("(d'*c*a')") && g.contains("(b*d'*c')")) {
                     viewG.setBackgroundResource(R.color.green);
                 } else {
                     viewG.setBackgroundResource(R.color.black);
